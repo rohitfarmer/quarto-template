@@ -1,0 +1,26 @@
+---
+title: "Rohit Farmer"
+pagetitle: "Rohit Farmer's Personal Website"
+about:
+  template: jolla
+  image: /images/rohitfarmer_2022.jpg
+format:
+  html:
+    toc: false
+open-graph:
+  title: "Rohit Farmer"
+  image: images/rohitfarmer_2022.jpg
+  description: "I am a computational biologist by training, with interests in the outdoors, self-hosting, Ham radio, and FOSS."
+twitter-card:
+  title: "Rohit Farmer"
+  image: images/rohitfarmer_2022.jpg
+listing:
+    id: recentPosts
+    type: grid
+    sort: "date desc"
+    max-items: 3
+    contents: 
+      - posts
+    fields: [title, description]
+---
+

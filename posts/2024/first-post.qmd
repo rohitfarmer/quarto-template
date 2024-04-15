@@ -1,0 +1,11 @@
+---
+title: "Revisiting my views about Mastodon"
+description: "Sharing my two years of experience on Mastodon and fediverse."
+author: 
+    - name: "Rohit Farmer"
+date: "2024-03-22"
+categories: [Review]
+image: path/link to the header image for web embedds
+---
+
+Main content

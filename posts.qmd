@@ -1,0 +1,23 @@
+---
+title: Posts
+listing:
+  - id: all-posts
+    contents: posts
+    sort: "date desc"
+    type: table
+    categories: numbered
+    sort-ui: true
+    filter-ui: true
+    feed: true
+    table-hover: false
+    table-striped: false
+    fields: [date, title, author, reading-time]
+page-layout: full
+title-block-banner: false
+open-graph:
+  image: /images/rohitfarmer_2022.jpg
+twitter-card:
+  image: /images/rohitfarmer_2022.jpg
+comments: false
+---
+

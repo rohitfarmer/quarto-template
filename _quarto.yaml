@@ -1,0 +1,50 @@
+project:
+  type: website
+
+website:
+  favicon: favicon.ico
+  title: "Rohit Farmer"
+  site-url: https://rohitfarmer.com
+  description: "I am a computational biologist by training, with interests in the outdoors, self-hosting, Ham radio, and FOSS."
+  reader-mode: false
+  back-to-top-navigation: true
+  navbar:
+    background: "#395144" # it could also be primary, secondary, light, dark etc. 
+    foreground: white
+    logo: favicon.ico
+    logo-alt: "Logo"
+    right:
+      - text: "Page1"
+        file: page1
+      - text: "Link1"
+        href: "https://docs.rohitfarmer.com"
+        target: blank
+      - text: "Posts"
+        file: posts.qmd
+      - icon: rss
+        href: posts.xml
+  twitter-card: true
+  open-graph: true
+  page-footer:
+    border: true
+    background: "#4E6C50" # it could also be primary, secondary, light, dark etc. 
+    foreground: white
+    center: |
+      &copy; Copyright Note
+      *Any general message*
+
+format:
+  html:
+    css: css/my-styles.css
+    toc: true
+    toc-depth: 4
+    link-external-icon: true
+    link-external-newwindow: true
+    theme: cosmo
+    include-in-header:
+      - text: |
+          <script></script>
+
+editor: source
+
+

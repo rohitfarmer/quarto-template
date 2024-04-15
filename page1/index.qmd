@@ -1,0 +1,10 @@
+---
+title: About
+pagetitle: "Outdoorsy Indians - About"
+description: "Join us and be a part of a community that celebrates the spirit of adventure and the beauty of nature."
+page-layout: full
+title-block-banner: true
+eval: false
+---
+
+A generic page
